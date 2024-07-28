@@ -245,3 +245,223 @@ echo "The length of the hypotenuse is: $hypotenuse"
 
 
 ```
+
+## Factorial 
+
+```
+#!/bin/bash
+# Script to calculate the factorial of a number
+
+echo "Enter a number: "
+read num
+
+factorial=1
+
+for (( i=1; i<=num; i++ ))
+do
+  factorial=$((factorial * i))
+done
+
+echo "The factorial of $num is: $factorial"
+
+
+```
+
+## Prime Number
+
+```
+#!/bin/bash
+# Script to check if a number is prime
+
+echo "Enter a number: "
+read num
+
+is_prime=1
+
+if [ $num -lt 2 ]; then
+  is_prime=0
+else
+  for (( i=2; i*i<=num; i++ ))
+  do
+    if [ $((num % i)) -eq 0 ]; then
+      is_prime=0
+      break
+    fi
+  done
+fi
+
+if [ $is_prime -eq 1 ]; then
+  echo "$num is a prime number."
+else
+  echo "$num is not a prime number."
+fi
+
+
+```
+
+## Fibonacci Series
+
+```
+#!/bin/bash
+# Script to generate Fibonacci series up to n terms
+
+echo "Enter the number of terms: "
+read n
+
+a=0
+b=1
+
+echo "Fibonacci series: "
+
+for (( i=0; i<n; i++ ))
+do
+  echo -n "$a "
+  fn=$((a + b))
+  a=$b
+  b=$fn
+done
+
+echo
+
+
+```
+
+## Sum of digits
+
+```
+#!/bin/bash
+# Script to calculate the sum of digits of a number
+
+echo "Enter a number: "
+read num
+
+sum=0
+temp=$num
+
+while [ $temp -ne 0 ]
+do
+  digit=$((temp % 10))
+  sum=$((sum + digit))
+  temp=$((temp / 10))
+done
+
+echo "The sum of the digits of $num is: $sum"
+
+
+```
+
+## Armstrong Number
+
+```
+#!/bin/bash
+# Script to check if a number is an Armstrong number
+
+echo "Enter a number: "
+read num
+
+sum=0
+temp=$num
+num_digits=${#num}
+
+while [ $temp -ne 0 ]
+do
+  digit=$((temp % 10))
+  sum=$((sum + digit**num_digits))
+  temp=$((temp / 10))
+done
+
+if [ $sum -eq $num ]; then
+  echo "$num is an Armstrong number."
+else
+  echo "$num is not an Armstrong number."
+fi
+
+
+```
+
+## Greatest Common Divisor
+
+```
+#!/bin/bash
+# Script to find the GCD of two numbers
+
+echo "Enter first number: "
+read a
+echo "Enter second number: "
+read b
+
+while [ $b -ne 0 ]
+do
+  temp=$b
+  b=$((a % b))
+  a=$temp
+done
+
+echo "The GCD is: $a"
+
+
+```
+
+## Least Common Multiple
+
+```
+#!/bin/bash
+# Script to find the LCM of two numbers
+
+echo "Enter first number: "
+read a
+echo "Enter second number: "
+read b
+
+gcd() {
+  local x=$1
+  local y=$2
+  while [ $y -ne 0 ]; do
+    temp=$y
+    y=$((x % y))
+    x=$temp
+  done
+  echo $x
+}
+
+g=$(gcd $a $b)
+lcm=$((a * b / g))
+
+echo "The LCM is: $lcm"
+
+
+```
+
+## Reverse a string
+
+```
+#!/bin/bash
+# Script to reverse a string
+
+echo "Enter a string: "
+read str
+
+reverse=$(echo $str | rev)
+
+echo "The reverse of the string is: $reverse"
+
+
+```
+
+## Check if a number is even or odd
+
+```
+#!/bin/bash
+# Script to check if a number is even or odd
+
+echo "Enter a number: "
+read num
+
+if [ $((num % 2)) -eq 0 ]; then
+  echo "$num is an even number."
+else
+  echo "$num is an odd number."
+fi
+
+
+```
