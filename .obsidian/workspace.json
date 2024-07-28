@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "e2e64a90ad268322",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6aac6618401bc3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "741452e8c00bd048",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shell Scripting/Basic Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1607146233b491a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "4022f9706e29986d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd9acaa9ded81f3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0105ffa6790c0a56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dadb0c073191cb2d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c9a9f35cba46f3e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2faf5684733bfeac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "728cedb5d483944b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Shell Scripting/Basic Questions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0712f1e0eca97495",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Shell Scripting/Basic Questions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d54938e618c98cc1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "01712974ffccb1f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Shell Scripting/Basic Questions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "741452e8c00bd048",
+  "lastOpenFiles": [
+    "DSA/Arrays.md",
+    "Shell Scripting/Basic Questions.md",
+    "Shell Scripting",
+    "Python/Python.md",
+    "Python/Pasted image 20240611211801.png",
+    "Python/Pasted image 20240611215424.png",
+    "Python/Pasted image 20240611211727.png",
+    "Python/Pasted image 20240611211705.png",
+    "DSA",
+    "LeetCode/Pasted image 20240703000511.png",
+    "LeetCode/Pasted image 20240702235600.png",
+    "LeetCode/Pasted image 20240703002101.png",
+    "LeetCode/Pasted image 20240703212928.png",
+    "LeetCode/LeetCode.md",
+    "AWS Cloud Practitioner/AWS Cloud Practitioner.md",
+    "Open Source/Open Source.md",
+    "Open Source",
+    "2024-07-20.md",
+    "Untitled 1",
+    "LeetCode",
+    "AWS Cloud Practitioner/Pasted image 20240624173333.png",
+    "Python",
+    "New folder",
+    "AWS Cloud Practitioner/Pasted image 20240624200843.png",
+    "Python.md",
+    "AWS Cloud Practitioner.md",
+    "AWS Cloud Practitioner",
+    "Untitled.canvas",
+    "2024-06-27.md",
+    "Welcome.md"
+  ]
+}
